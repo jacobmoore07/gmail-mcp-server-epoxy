@@ -1,0 +1,20 @@
+{
+  "name": "gmail-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "Gmail MCP Server - wraps the Gmail REST API with multi-account support",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.0",
+    "googleapis": "^144.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
